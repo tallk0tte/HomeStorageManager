@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.main.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/mydescription"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+
+
+        <Button
+            android:id="@+id/addnewdata"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+           	android:text="@string/adddata" />
+
+        <Button
+            android:id="@+id/listdata"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/listdata"/>
+
+        <Button
+            android:id="@+id/removedata"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/removedata" />
+
+    </LinearLayout>
+
+</FrameLayout>

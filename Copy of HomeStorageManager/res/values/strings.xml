@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Home Storage Manager</string>
+    <string name="title_activity_list_all_data">ListAllData</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mydescription">HJEJEJAEJSJAEJASJDEAJEASJAJE</string>
+    <string name="adddata">Add Data</string>
+    <string name="listdata">List Data</string>
+    <string name="removedata">Remove Data</string>
+    <string name="title_activity_dinmamm">DINMAMMA</string>
+    <string name="listAllData">List All Data</string>
+    <string name="searchData">Search</string>
+
+</resources>
